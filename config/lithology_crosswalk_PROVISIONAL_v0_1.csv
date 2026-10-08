@@ -1,0 +1,124 @@
+source_code,source_lithology,sherpa_proxy_class,output_code,confidence,basis,pixel_count,percent_of_valid_raster
+1,alkaliolivinebasalt,base_rich,1,B_EQUIVALENT,Geologically close equivalent/subclass of a SHERPA SI2 Table S2.4 base-rich class.,11238,0.010895
+2,amphibolite,base_rich,1,B_EQUIVALENT,Geologically close equivalent/subclass of a SHERPA SI2 Table S2.4 base-rich class.,280850,0.272277
+3,andesite,medium_base,2,A_DIRECT_SHERPA,Direct/near-direct match to SHERPA SI2 Table S2.4 siliceous medium-base column.,469861,0.455518
+4,anorthositicrock,unresolved,0,U_UNRESOLVED,Too broad/composition-dependent for safe automatic SHERPA assignment.,4520,0.004382
+5,arenite,sandy_hint,3,C_SANDY_HINT,"Sand/sandstone/quartzite family. Use only as a lithological hint; actual sand %, altitude and climate take precedence.",332152,0.322013
+6,ashbrecciabomborblocktephra,unresolved,0,U_UNRESOLVED,Too broad/composition-dependent for safe automatic SHERPA assignment.,618,0.000599
+7,ashtufflapillistoneandlapillituff,unresolved,0,U_UNRESOLVED,Too broad/composition-dependent for safe automatic SHERPA assignment.,7684,0.007449
+8,basalt,base_rich,1,A_DIRECT_SHERPA,Direct/near-direct match to SHERPA SI2 Table S2.4 base-rich/calcareous column.,1545825,1.498638
+9,basanite,base_rich,1,B_EQUIVALENT,Geologically close equivalent/subclass of a SHERPA SI2 Table S2.4 base-rich class.,77394,0.075032
+10,biogenicsilicasedimentaryrock,medium_base,2,B_EQUIVALENT,Geologically close equivalent/subclass of a SHERPA SI2 Table S2.4 medium-base class.,14559,0.014115
+11,breccia,unresolved,0,U_UNRESOLVED,Too broad/composition-dependent for safe automatic SHERPA assignment.,928,0.0009
+12,brecciagougeseries,unresolved,0,U_UNRESOLVED,Too broad/composition-dependent for safe automatic SHERPA assignment.,222,0.000215
+13,carbonatemud,base_rich,1,B_EQUIVALENT,Geologically close equivalent/subclass of a SHERPA SI2 Table S2.4 base-rich class.,750,0.000727
+14,carbonateooze,base_rich,1,B_EQUIVALENT,Geologically close equivalent/subclass of a SHERPA SI2 Table S2.4 base-rich class.,2907,0.002818
+15,carbonatesedimentaryrock,base_rich,1,B_EQUIVALENT,Geologically close equivalent/subclass of a SHERPA SI2 Table S2.4 base-rich class.,664528,0.644243
+16,carbonatite,base_rich,1,B_EQUIVALENT,Geologically close equivalent/subclass of a SHERPA SI2 Table S2.4 base-rich class.,39,3.8e-05
+17,chalk,base_rich,1,B_EQUIVALENT,Geologically close equivalent/subclass of a SHERPA SI2 Table S2.4 base-rich class.,825876,0.800666
+18,chloriteactinoliteepidotemetamorphicrock,base_rich,1,B_EQUIVALENT,Geologically close equivalent/subclass of a SHERPA SI2 Table S2.4 base-rich class.,20579,0.019951
+19,clasticsandstone,sandy_hint,3,C_SANDY_HINT,"Sand/sandstone/quartzite family. Use only as a lithological hint; actual sand %, altitude and climate take precedence.",67,6.5e-05
+20,clasticsediment,medium_base,2,A_DIRECT_SHERPA,Direct/near-direct match to SHERPA SI2 Table S2.4 siliceous medium-base column.,5189813,5.031392
+21,clasticsedimentarymaterial,medium_base,2,A_DIRECT_SHERPA,Direct/near-direct match to SHERPA SI2 Table S2.4 siliceous medium-base column.,1017596,0.986533
+22,clasticsedimentaryrock,medium_base,2,A_DIRECT_SHERPA,Direct/near-direct match to SHERPA SI2 Table S2.4 siliceous medium-base column.,2183807,2.117145
+23,clay,base_rich,1,A_DIRECT_SHERPA,Direct/near-direct match to SHERPA SI2 Table S2.4 base-rich/calcareous column.,3065263,2.971695
+24,claystone,base_rich,1,A_DIRECT_SHERPA,Direct/near-direct match to SHERPA SI2 Table S2.4 base-rich/calcareous column.,495313,0.480193
+25,conglomerate,medium_base,2,A_DIRECT_SHERPA,Direct/near-direct match to SHERPA SI2 Table S2.4 siliceous medium-base column.,2222251,2.154416
+26,dacite,medium_base,2,B_EQUIVALENT,Geologically close equivalent/subclass of a SHERPA SI2 Table S2.4 medium-base class.,3446,0.003341
+27,diamictite,medium_base,2,B_EQUIVALENT,Geologically close equivalent/subclass of a SHERPA SI2 Table S2.4 medium-base class.,18970,0.018391
+28,diamicton,medium_base,2,B_EQUIVALENT,Geologically close equivalent/subclass of a SHERPA SI2 Table S2.4 medium-base class.,12047004,11.679265
+29,diorite,medium_base,2,B_EQUIVALENT,Geologically close equivalent/subclass of a SHERPA SI2 Table S2.4 medium-base class.,7643,0.00741
+30,dioriticrock,medium_base,2,B_EQUIVALENT,Geologically close equivalent/subclass of a SHERPA SI2 Table S2.4 medium-base class.,420,0.000407
+31,doleriticrock,base_rich,1,B_EQUIVALENT,Geologically close equivalent/subclass of a SHERPA SI2 Table S2.4 base-rich class.,59452,0.057637
+32,dolomite,base_rich,1,A_DIRECT_SHERPA,Direct/near-direct match to SHERPA SI2 Table S2.4 base-rich/calcareous column.,667642,0.647262
+33,dolomiticormagnesiansedimentaryrock,base_rich,1,B_EQUIVALENT,Geologically close equivalent/subclass of a SHERPA SI2 Table S2.4 base-rich class.,70,6.8e-05
+34,eclogite,base_rich,1,B_EQUIVALENT,Geologically close equivalent/subclass of a SHERPA SI2 Table S2.4 base-rich class.,14540,0.014096
+35,exoticcompositionigneousrock,unresolved,0,U_UNRESOLVED,Too broad/composition-dependent for safe automatic SHERPA assignment.,805,0.00078
+36,finegrainedigneousrock,unresolved,0,U_UNRESOLVED,Too broad/composition-dependent for safe automatic SHERPA assignment.,779731,0.755929
+37,foidbearingsyenite,unresolved,0,U_UNRESOLVED,Too broad/composition-dependent for safe automatic SHERPA assignment.,46,4.5e-05
+38,foidsyenitoid,unresolved,0,U_UNRESOLVED,Too broad/composition-dependent for safe automatic SHERPA assignment.,287,0.000278
+39,foliatedmetamorphicrock,medium_base,2,B_EQUIVALENT,Geologically close equivalent/subclass of a SHERPA SI2 Table S2.4 medium-base class.,13612,0.013196
+40,fragmentaligneousmaterial,unresolved,0,U_UNRESOLVED,Too broad/composition-dependent for safe automatic SHERPA assignment.,10884,0.010552
+41,gabbro,base_rich,1,A_DIRECT_SHERPA,Direct/near-direct match to SHERPA SI2 Table S2.4 base-rich/calcareous column.,500589,0.485308
+42,gabbroicrock,base_rich,1,B_EQUIVALENT,Geologically close equivalent/subclass of a SHERPA SI2 Table S2.4 base-rich class.,503,0.000488
+43,gabbroid,base_rich,1,B_EQUIVALENT,Geologically close equivalent/subclass of a SHERPA SI2 Table S2.4 base-rich class.,15648,0.01517
+44,glaucophanelawsoniteepidotemetamorphicrock,base_rich,1,B_EQUIVALENT,Geologically close equivalent/subclass of a SHERPA SI2 Table S2.4 base-rich class.,27867,0.027016
+45,gneiss,medium_base,2,A_DIRECT_SHERPA,Direct/near-direct match to SHERPA SI2 Table S2.4 siliceous medium-base column.,1810135,1.75488
+46,granite,medium_base,2,A_DIRECT_SHERPA,Direct/near-direct match to SHERPA SI2 Table S2.4 siliceous medium-base column.,4382924,4.249134
+47,granitoid,medium_base,2,A_DIRECT_SHERPA,Direct/near-direct match to SHERPA SI2 Table S2.4 siliceous medium-base column.,3217172,3.118967
+48,granodiorite,medium_base,2,A_DIRECT_SHERPA,Direct/near-direct match to SHERPA SI2 Table S2.4 siliceous medium-base column.,68446,0.066357
+49,granulite,medium_base,2,B_EQUIVALENT,Geologically close equivalent/subclass of a SHERPA SI2 Table S2.4 medium-base class.,107312,0.104036
+50,gravel,medium_base,2,A_DIRECT_SHERPA,Direct/near-direct match to SHERPA SI2 Table S2.4 siliceous medium-base column.,1703494,1.651494
+51,gypsumoranhydrite,unresolved,0,U_UNRESOLVED,Too broad/composition-dependent for safe automatic SHERPA assignment.,174064,0.168751
+52,hornfels,unresolved,0,U_UNRESOLVED,Too broad/composition-dependent for safe automatic SHERPA assignment.,47,4.6e-05
+53,igneousmaterial,unresolved,0,U_UNRESOLVED,Too broad/composition-dependent for safe automatic SHERPA assignment.,40868,0.03962
+54,igneousrock,unresolved,0,U_UNRESOLVED,Too broad/composition-dependent for safe automatic SHERPA assignment.,1385615,1.343319
+55,impactgeneratedmaterial,unresolved,0,U_UNRESOLVED,Too broad/composition-dependent for safe automatic SHERPA assignment.,13233,0.012829
+56,impurecarbonatesediment,base_rich,1,B_EQUIVALENT,Geologically close equivalent/subclass of a SHERPA SI2 Table S2.4 base-rich class.,134904,0.130786
+57,impurecarbonatesedimentaryrock,base_rich,1,B_EQUIVALENT,Geologically close equivalent/subclass of a SHERPA SI2 Table S2.4 base-rich class.,5114937,4.958802
+58,impuredolomite,base_rich,1,B_EQUIVALENT,Geologically close equivalent/subclass of a SHERPA SI2 Table S2.4 base-rich class.,24819,0.024061
+59,impurelimestone,base_rich,1,B_EQUIVALENT,Geologically close equivalent/subclass of a SHERPA SI2 Table S2.4 base-rich class.,568650,0.551292
+60,komatiiticrock,base_rich,1,B_EQUIVALENT,Geologically close equivalent/subclass of a SHERPA SI2 Table S2.4 base-rich class.,11094,0.010755
+61,limestone,base_rich,1,A_DIRECT_SHERPA,Direct/near-direct match to SHERPA SI2 Table S2.4 base-rich/calcareous column.,8505431,8.245799
+62,marble,base_rich,1,A_DIRECT_SHERPA,Direct/near-direct match to SHERPA SI2 Table S2.4 base-rich/calcareous column.,217128,0.2105
+63,metamorphicrock,medium_base,2,A_DIRECT_SHERPA,Direct/near-direct match to SHERPA SI2 Table S2.4 siliceous medium-base column.,730474,0.708176
+64,metasomaticrock,unresolved,0,U_UNRESOLVED,Too broad/composition-dependent for safe automatic SHERPA assignment.,12779,0.012389
+65,micaschist,medium_base,2,A_DIRECT_SHERPA,Direct/near-direct match to SHERPA SI2 Table S2.4 siliceous medium-base column.,1433072,1.389327
+66,migmatite,medium_base,2,A_DIRECT_SHERPA,Direct/near-direct match to SHERPA SI2 Table S2.4 siliceous medium-base column.,290409,0.281544
+67,monzogranite,medium_base,2,B_EQUIVALENT,Geologically close equivalent/subclass of a SHERPA SI2 Table S2.4 medium-base class.,562991,0.545805
+68,monzonite,medium_base,2,B_EQUIVALENT,Geologically close equivalent/subclass of a SHERPA SI2 Table S2.4 medium-base class.,18532,0.017966
+69,mud,unresolved,0,U_UNRESOLVED,Too broad/composition-dependent for safe automatic SHERPA assignment.,79317,0.076896
+70,mudstone,base_rich,1,A_DIRECT_SHERPA,Direct/near-direct match to SHERPA SI2 Table S2.4 base-rich/calcareous column.,1082221,1.049186
+71,myloniticrock,unresolved,0,U_UNRESOLVED,Too broad/composition-dependent for safe automatic SHERPA assignment.,28703,0.027827
+72,nonclasticsiliceoussedimentaryrock,medium_base,2,B_EQUIVALENT,Geologically close equivalent/subclass of a SHERPA SI2 Table S2.4 medium-base class.,8778,0.00851
+73,organicbearingmudstone,base_rich,1,B_EQUIVALENT,Geologically close equivalent/subclass of a SHERPA SI2 Table S2.4 base-rich class.,109530,0.106187
+74,organicrichsediment,unresolved,0,U_UNRESOLVED,Too broad/composition-dependent for safe automatic SHERPA assignment.,51520,0.049947
+75,organicrichsedimentarymaterial,unresolved,0,U_UNRESOLVED,Too broad/composition-dependent for safe automatic SHERPA assignment.,2753,0.002669
+76,orthogneiss,medium_base,2,A_DIRECT_SHERPA,Direct/near-direct match to SHERPA SI2 Table S2.4 siliceous medium-base column.,517501,0.501704
+77,paragneiss,medium_base,2,B_EQUIVALENT,Geologically close equivalent/subclass of a SHERPA SI2 Table S2.4 medium-base class.,330843,0.320744
+78,peat,unresolved,0,U_UNRESOLVED,Too broad/composition-dependent for safe automatic SHERPA assignment.,1825115,1.769403
+79,peridotite,unresolved,0,U_UNRESOLVED,Too broad/composition-dependent for safe automatic SHERPA assignment.,54660,0.052991
+80,phaneriticigneousrock,unresolved,0,U_UNRESOLVED,Too broad/composition-dependent for safe automatic SHERPA assignment.,31,3e-05
+81,phonolite,unresolved,0,U_UNRESOLVED,Too broad/composition-dependent for safe automatic SHERPA assignment.,1044,0.001012
+82,phyllite,medium_base,2,A_DIRECT_SHERPA,Direct/near-direct match to SHERPA SI2 Table S2.4 siliceous medium-base column.,664789,0.644496
+83,phyllonite,medium_base,2,B_EQUIVALENT,Geologically close equivalent/subclass of a SHERPA SI2 Table S2.4 medium-base class.,27235,0.026404
+84,porphyry,unresolved,0,U_UNRESOLVED,Too broad/composition-dependent for safe automatic SHERPA assignment.,1573,0.001525
+85,pyroclasticmaterial,unresolved,0,U_UNRESOLVED,Too broad/composition-dependent for safe automatic SHERPA assignment.,36096,0.034994
+86,pyroclasticrock,unresolved,0,U_UNRESOLVED,Too broad/composition-dependent for safe automatic SHERPA assignment.,50029,0.048502
+87,pyroxenite,unresolved,0,U_UNRESOLVED,Too broad/composition-dependent for safe automatic SHERPA assignment.,2315,0.002244
+88,quartzdiorite,medium_base,2,B_EQUIVALENT,Geologically close equivalent/subclass of a SHERPA SI2 Table S2.4 medium-base class.,1165,0.001129
+89,quartzite,sandy_hint,3,C_SANDY_HINT,"Sand/sandstone/quartzite family. Use only as a lithological hint; actual sand %, altitude and climate take precedence.",689358,0.668315
+90,residualmaterial,medium_base,2,B_EQUIVALENT,Geologically close equivalent/subclass of a SHERPA SI2 Table S2.4 medium-base class.,8380,0.008124
+91,rhyolite,medium_base,2,A_DIRECT_SHERPA,Direct/near-direct match to SHERPA SI2 Table S2.4 siliceous medium-base column.,603038,0.58463
+92,rhyolitoid,medium_base,2,B_EQUIVALENT,Geologically close equivalent/subclass of a SHERPA SI2 Table S2.4 medium-base class.,172040,0.166788
+93,rock,unresolved,0,U_UNRESOLVED,Too broad/composition-dependent for safe automatic SHERPA assignment.,714,0.000692
+94,sand,sandy_hint,3,C_SANDY_HINT,"Sand/sandstone/quartzite family. Use only as a lithological hint; actual sand %, altitude and climate take precedence.",11713838,11.356269
+95,sandstone,sandy_hint,3,C_SANDY_HINT,"Sand/sandstone/quartzite family. Use only as a lithological hint; actual sand %, altitude and climate take precedence.",6317616,6.124768
+96,schist,medium_base,2,B_EQUIVALENT,Geologically close equivalent/subclass of a SHERPA SI2 Table S2.4 medium-base class.,818036,0.793065
+97,sediment,medium_base,2,B_EQUIVALENT,Geologically close equivalent/subclass of a SHERPA SI2 Table S2.4 medium-base class.,26296,0.025493
+98,sedimentarymaterial,medium_base,2,B_EQUIVALENT,Geologically close equivalent/subclass of a SHERPA SI2 Table S2.4 medium-base class.,13828,0.013406
+99,sedimentaryrock,unresolved,0,U_UNRESOLVED,Too broad/composition-dependent for safe automatic SHERPA assignment.,2220671,2.152884
+100,serpentinite,unresolved,0,U_UNRESOLVED,Too broad/composition-dependent for safe automatic SHERPA assignment.,56113,0.0544
+101,shale,medium_base,2,A_DIRECT_SHERPA,Direct/near-direct match to SHERPA SI2 Table S2.4 siliceous medium-base column.,1276690,1.237719
+102,silicatemud,medium_base,2,B_EQUIVALENT,Geologically close equivalent/subclass of a SHERPA SI2 Table S2.4 medium-base class.,101,9.8e-05
+103,silt,unresolved,0,U_UNRESOLVED,Too broad/composition-dependent for safe automatic SHERPA assignment.,7888019,7.647234
+104,siltstone,base_rich,1,A_DIRECT_SHERPA,Direct/near-direct match to SHERPA SI2 Table S2.4 base-rich/calcareous column.,124522,0.120721
+105,skarn,base_rich,1,A_DIRECT_SHERPA,Direct/near-direct match to SHERPA SI2 Table S2.4 base-rich/calcareous column.,27,2.6e-05
+106,slate,medium_base,2,A_DIRECT_SHERPA,Direct/near-direct match to SHERPA SI2 Table S2.4 siliceous medium-base column.,283477,0.274824
+107,spilite,base_rich,1,B_EQUIVALENT,Geologically close equivalent/subclass of a SHERPA SI2 Table S2.4 base-rich class.,21557,0.020899
+108,syenite,medium_base,2,B_EQUIVALENT,Geologically close equivalent/subclass of a SHERPA SI2 Table S2.4 medium-base class.,19880,0.019273
+109,syeniticrock,medium_base,2,B_EQUIVALENT,Geologically close equivalent/subclass of a SHERPA SI2 Table S2.4 medium-base class.,332,0.000322
+110,syenogranite,medium_base,2,B_EQUIVALENT,Geologically close equivalent/subclass of a SHERPA SI2 Table S2.4 medium-base class.,273,0.000265
+111,tephrite,base_rich,1,B_EQUIVALENT,Geologically close equivalent/subclass of a SHERPA SI2 Table S2.4 base-rich class.,83501,0.080952
+112,tholeiiticbasalt,base_rich,1,B_EQUIVALENT,Geologically close equivalent/subclass of a SHERPA SI2 Table S2.4 base-rich class.,2640,0.002559
+113,tonalite,medium_base,2,B_EQUIVALENT,Geologically close equivalent/subclass of a SHERPA SI2 Table S2.4 medium-base class.,67687,0.065621
+114,trachyte,medium_base,2,B_EQUIVALENT,Geologically close equivalent/subclass of a SHERPA SI2 Table S2.4 medium-base class.,7269,0.007047
+115,trachyticrock,medium_base,2,B_EQUIVALENT,Geologically close equivalent/subclass of a SHERPA SI2 Table S2.4 medium-base class.,1052,0.00102
+116,trachytoid,medium_base,2,B_EQUIVALENT,Geologically close equivalent/subclass of a SHERPA SI2 Table S2.4 medium-base class.,28508,0.027638
+117,travertine,base_rich,1,B_EQUIVALENT,Geologically close equivalent/subclass of a SHERPA SI2 Table S2.4 base-rich class.,244052,0.236602
+118,tuffbrecciaagglomerateorpyroclasticbreccia,unresolved,0,U_UNRESOLVED,Too broad/composition-dependent for safe automatic SHERPA assignment.,110860,0.107476
+119,ultramaficigneousrock,unresolved,0,U_UNRESOLVED,Too broad/composition-dependent for safe automatic SHERPA assignment.,133752,0.129669
+120,wacke,medium_base,2,B_EQUIVALENT,Geologically close equivalent/subclass of a SHERPA SI2 Table S2.4 medium-base class.,1826063,1.770322
+121,waste,unresolved,0,U_UNRESOLVED,Too broad/composition-dependent for safe automatic SHERPA assignment.,121,0.000117
+122,UNKNOWN_CURRENT_CODE_122,unresolved,0,U_UNRESOLVED,Present in 2024 raster but not in the legacy 1..121 legend used here. Requires the current 2024 .tif.csv sidecar.,197,0.000191
+123,UNKNOWN_CURRENT_CODE_123,unresolved,0,U_UNRESOLVED,Present in 2024 raster but not in the legacy 1..121 legend used here. Requires the current 2024 .tif.csv sidecar.,380597,0.368979

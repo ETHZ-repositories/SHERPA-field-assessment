@@ -1,0 +1,76 @@
+lithology,sherpa_class,source_note
+"Calcschist, skarn",base_rich,Table S2.4
+Marl,base_rich,Table S2.4
+Loamy loess,base_rich,Table S2.4
+Siltstone,base_rich,Table S2.4
+Quaternary clay and silt,base_rich,Table S2.4
+Limestone,base_rich,Table S2.4
+Basalt,base_rich,Table S2.4
+Loess,base_rich,Table S2.4
+Calcareous rocks,base_rich,Table S2.4
+Marlstone,base_rich,Table S2.4
+Hard limestone,base_rich,Table S2.4
+Clayey and silty flysch,base_rich,Table S2.4
+River clay and silt,base_rich,Table S2.4
+Residual clay,base_rich,Table S2.4
+Clayey loam,base_rich,Table S2.4
+Stony clay,base_rich,Table S2.4
+Claystone / mudstone,base_rich,Table S2.4
+Dolomite,base_rich,Table S2.4
+Diabase,base_rich,Table S2.4
+Gabbro,base_rich,Table S2.4
+Impure Carbonate Sedimentary Rock*,base_rich,Table S2.4
+Marble*,base_rich,Table S2.4
+Granite,medium_base,Table S2.4
+Micaschist,medium_base,Table S2.4
+Granodiorite,medium_base,Table S2.4
+Clayey sandstone,medium_base,Table S2.4
+Glaciofluvial deposits,medium_base,Table S2.4
+Glacial till,medium_base,Table S2.4
+Quaternary clay and silt,medium_base,Table S2.4
+Sandy loess,medium_base,Table S2.4
+Morainic deposits,medium_base,Table S2.4
+Gneiss,medium_base,Table S2.4
+Rhyolite,medium_base,Table S2.4
+Phyllite,medium_base,Table S2.4
+Eolian deposits,medium_base,Table S2.4
+Pumice,medium_base,Table S2.4
+Acid regional metamorphic rocks,medium_base,Table S2.4
+Talus scree,medium_base,Table S2.4
+Glacial debris,medium_base,Table S2.4
+Colluvial deposit,medium_base,Table S2.4
+Molasse,medium_base,Table S2.4
+Andesite,medium_base,Table S2.4
+Flysch,medium_base,Table S2.4
+Glaciolacustrine deposits,medium_base,Table S2.4
+"Unconsolidated deposits (Alluvium, Weathering Residuum and Slope Deposits)",medium_base,Table S2.4
+Consolidated-Clastic-Sedimentary Rocks,medium_base,Table S2.4
+Residual and redeposited loams from silicate rocks,medium_base,Table S2.4
+Unconsolidated glacial deposits / Glacial drift,medium_base,Table S2.4
+Metamorphic rocks,medium_base,Table S2.4
+Acid to intermediate volcanic rocks,medium_base,Table S2.4
+Gravel*,medium_base,Table S2.4
+Migmatite*,medium_base,Table S2.4
+Shale*,medium_base,Table S2.4
+Granitoid*,medium_base,Table S2.4
+Conglomerate*,medium_base,Table S2.4
+Orthogneiss*,medium_base,Table S2.4
+Clastic sedimentary material*,medium_base,Table S2.4
+Slate*,medium_base,Table S2.4
+Clastic sediment*,medium_base,Table S2.4
+Eolian sands,high_sandy,Table S2.4
+Quartzite schist,high_sandy,Table S2.4
+Pre-quaternary sand,high_sandy,Table S2.4
+Fluvial sands and gravels,high_sandy,Table S2.4
+Sandstone,high_sandy,Table S2.4
+(Meta-)Quartzite,high_sandy,Table S2.4
+Cover sand,high_sandy,Table S2.4
+River terrace gravel,high_sandy,Table S2.4
+Outwash sand / glacial sand,high_sandy,Table S2.4
+Quaternary sand,high_sandy,Table S2.4
+Quartzitic sandstone / orthoquartzite,high_sandy,Table S2.4
+River terrace sand,high_sandy,Table S2.4
+Floodplain sand,high_sandy,Table S2.4
+Sandy flysch,high_sandy,Table S2.4
+River terrace sand or gravel,high_sandy,Table S2.4
+Floodplain sand or gravel,high_sandy,Table S2.4

@@ -1,0 +1,8 @@
+source_group,suitable_lt,affects_root_growth,restricts_gt,examples
+Sands / loamy sands,1.6,1.69,1.8,Sand; Loamy Sand
+Sandy loams / loams,1.4,1.63,1.8,Sandy Loam; Loam
+Sandy clay loams / clay loams,1.4,1.6,1.75,Sandy Clay Loam; Clay Loam
+Silts / silt loams,1.4,1.6,1.75,Silt; Silt Loam
+Silt loams / silty clay loams,1.4,1.55,1.65,Silt Loam; Silty Clay Loam
+Sandy clays / silty clays / clay loams,1.1,1.49,1.58,Sandy Clay; Silty Clay; Clay Loam
+Clay (>45% clay),1.1,1.39,1.47,Clay >45%

@@ -1,0 +1,13 @@
+value,usda_name,sherpa_texture_group,mapping_status,note
+1,Clay,Clay (>45% clay),provisional,Closest SHERPA group. USDA Clay may include 40–45% clay; refine later if clay % is available.
+2,Silty Clay,Sandy clays / silty clays / clay loams,direct,Direct name match to SHERPA mixed high-clay group.
+3,Silty Clay-Loam,Silt loams / silty clay loams,direct,Direct name match.
+4,Sandy Clay,Sandy clays / silty clays / clay loams,direct,Direct name match.
+5,Sandy Clay-Loam,Sandy clay loams / clay loams,direct,Direct name match.
+6,Clay-Loam,Sandy clay loams / clay loams,logical,SI1 repeats clay loam in another group; use the first/closest clay-loam group.
+7,Silt,Silts / silt loams,direct,Direct name match.
+8,Silt-Loam,Silts / silt loams,logical,SI1 repeats silt loam in another group; use the first/closest silt-loam group.
+9,Loam,Sandy loams / loams,direct,Direct name match.
+10,Sand,Sands / loamy sands,direct,Direct name match.
+11,Loamy Sand,Sands / loamy sands,direct,Direct name match.
+12,Sandy Loam,Sandy loams / loams,direct,Direct name match.

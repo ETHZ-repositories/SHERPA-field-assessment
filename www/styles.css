@@ -1,0 +1,552 @@
+body {
+  background: #f7f9fb;
+  color: #20262e;
+}
+
+.container-fluid {
+  max-width: 1600px;
+}
+
+
+.app-header {
+  margin-bottom: 8px;
+}
+
+.app-header-main {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 24px;
+  margin-top: 10px;
+}
+
+.app-header-text {
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
+.app-title {
+  margin: 0 0 8px 0;
+  font-size: 44px;
+  font-weight: 500;
+  line-height: 1.15;
+  color: #20262e;
+}
+
+.app-header-logo-wrap {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding-top: 4px;
+}
+
+.app-header-logo {
+  display: block;
+  width: min(240px, 18vw);
+  min-width: 170px;
+  height: auto;
+}
+
+.app-banner-wrap {
+  margin: 10px 0 14px 0;
+}
+
+.app-banner {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 1px solid #dfe5eb;
+  box-sizing: border-box;
+}
+
+.subtitle {
+  color: #586474;
+  margin-bottom: 18px;
+  max-width: 1200px;
+}
+
+.well {
+  background: #ffffff;
+  border: 1px solid #dfe5eb;
+  border-radius: 8px;
+  box-shadow: none;
+}
+
+.route-banner,
+.live-score-card,
+.result-card,
+.part2-intro {
+  background: #ffffff;
+  border: 1px solid #dfe5eb;
+  border-radius: 8px;
+  padding: 14px 16px;
+  margin-bottom: 16px;
+}
+
+.route-banner {
+  border-left: 5px solid #3e6f8f;
+}
+
+.warning-card {
+  background: #fff8e8;
+  border-color: #ead8ad;
+  border-left: 5px solid #c98716;
+}
+
+.live-score-card.complete {
+  background: #eef8f1;
+  border-left: 5px solid #3f7f56;
+}
+
+.live-score-card.pending,
+.partial-card {
+  background: #f8f4e9;
+  border-left: 5px solid #aa812d;
+}
+
+.result-card {
+  background: #eef7f6;
+  border-left: 5px solid #32766f;
+}
+
+.technical-error {
+  font-family: monospace;
+  font-size: 0.9em;
+  color: #8f2d2d;
+}
+
+.part2-intro {
+  background: #ffffff;
+  padding-bottom: 12px;
+}
+
+.category-legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 10px;
+}
+
+.legend-chip,
+.category-badge {
+  display: inline-block;
+  border-radius: 999px;
+  padding: 4px 10px;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+}
+
+.legend-chip.physical, .badge-physical { background: #e4f0fb; color: #245b86; }
+.legend-chip.contaminant, .badge-contaminant { background: #f4e8f5; color: #7d3e80; }
+.legend-chip.nutrient, .badge-nutrient { background: #fff0cf; color: #8a6112; }
+.legend-chip.salinity, .badge-salinity { background: #dff3f1; color: #216b67; }
+.legend-chip.carbon, .badge-carbon { background: #e5f2e7; color: #35683d; }
+
+.component-panel {
+  background: #ffffff;
+  border: 1px solid #dfe5eb;
+  border-left-width: 6px;
+  border-radius: 8px;
+  margin: 0 0 12px 0;
+  overflow: visible;
+  position: relative;
+}
+
+.component-panel.cat-physical { border-left-color: #4d8fc8; }
+.component-panel.cat-contaminant { border-left-color: #9a5c9d; }
+.component-panel.cat-nutrient { border-left-color: #d3a13c; }
+.component-panel.cat-salinity { border-left-color: #45998f; }
+.component-panel.cat-carbon { border-left-color: #5e9668; }
+
+.component-panel > summary {
+  cursor: pointer;
+  list-style: none;
+  padding: 14px 16px;
+  font-size: 17px;
+  font-weight: 650;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  background: #fbfcfd;
+}
+
+.component-panel > summary::-webkit-details-marker { display: none; }
+.component-panel > summary::before {
+  content: "▸";
+  margin-right: 8px;
+  color: #657486;
+}
+.component-panel[open] > summary::before { content: "▾"; }
+.component-title { flex: 1; }
+.component-body {
+  padding: 16px 18px 8px 18px;
+  border-top: 1px solid #edf0f3;
+}
+
+.metal-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 10px 14px;
+  margin-top: 12px;
+}
+
+.metal-input-card,
+.metal-depth-row {
+  background: #faf7fb;
+  border: 1px solid #eadfec;
+  border-radius: 7px;
+  padding: 10px 12px 2px 12px;
+}
+
+.metal-label,
+.metal-depth-title {
+  font-weight: 650;
+  margin-bottom: 4px;
+}
+
+.status-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(180px, 1fr));
+  gap: 12px;
+  margin: 4px 0 22px 0;
+}
+
+.status-card {
+  background: #ffffff;
+  border: 1px solid #dfe5eb;
+  border-top: 5px solid #8a96a3;
+  border-radius: 8px;
+  padding: 13px 15px;
+}
+.status-card.status-ok { border-top-color: #4c8460; }
+.status-card.status-pending { border-top-color: #bc9035; }
+.status-title { font-size: 11px; font-weight: 800; letter-spacing: 0.07em; color: #66717f; }
+.status-value { font-size: 25px; font-weight: 650; margin: 2px 0; }
+.status-sub { color: #66717f; font-size: 12px; }
+
+.small-note, .help-block {
+  color: #66717f;
+}
+
+.table {
+  background: white;
+}
+
+@media (max-width: 900px) {
+  .app-header-main {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .app-header-logo {
+    width: min(220px, 55vw);
+    min-width: 150px;
+  }
+  .status-grid { grid-template-columns: 1fr; }
+  .component-panel > summary { align-items: flex-start; }
+}
+
+/* v1.3: global dropdown stacking/overflow fix.
+   Applies to both the left Assessment scope controls (Part 1 routing) and
+   the collapsible Part 2 component panels. The active Shiny input container
+   is raised as a whole stacking context, preventing later controls/panels
+   from painting over an open selectize menu. */
+
+/* No application container should clip an open dropdown. */
+.well,
+.container-fluid,
+.row,
+.tab-content,
+.tab-pane,
+.component-panel,
+.component-panel[open],
+.component-panel[open] .component-body {
+  overflow: visible !important;
+}
+
+/* Each Shiny input gets its own low stacking context. */
+.shiny-input-container,
+.form-group.shiny-input-container {
+  position: relative;
+  z-index: 1;
+  overflow: visible !important;
+}
+
+/* The control currently being used must sit above controls that follow it. */
+.shiny-input-container:focus-within,
+.form-group.shiny-input-container:focus-within {
+  z-index: 100000 !important;
+}
+
+/* Collapsible panels are low by default, but an open panel containing the
+   active selector is raised via :focus-within. */
+.component-panel {
+  position: relative;
+  z-index: 1;
+}
+.component-panel[open]:focus-within {
+  z-index: 90000 !important;
+}
+
+.selectize-control {
+  position: relative;
+  z-index: 2;
+}
+.selectize-control.dropdown-active {
+  z-index: 100001 !important;
+}
+.selectize-dropdown,
+.selectize-dropdown.form-control {
+  z-index: 100002 !important;
+}
+
+/* Bootstrap/Selectize inputs can establish their own paint order. Keep the
+   focused input above neighbouring controls as an additional safeguard. */
+.selectize-input.focus,
+.selectize-input.dropdown-active {
+  position: relative;
+  z-index: 100003 !important;
+}
+
+
+/* v1.5 validation / regression mode ----------------------------------- */
+.validation-intro {
+  background: #f6f8fb;
+  border-left: 5px solid #6b7785;
+  padding: 14px 18px;
+  margin-bottom: 18px;
+  border-radius: 7px;
+}
+
+.validation-section {
+  margin: 18px 0;
+  padding: 14px 16px 8px 16px;
+  border-radius: 8px;
+  border: 1px solid #e3e7eb;
+  overflow: visible !important;
+}
+
+.val-section-physical { background: #f3f7fb; border-left: 5px solid #557a9e; }
+.val-section-contaminant { background: #faf5fb; border-left: 5px solid #8a668f; }
+.val-section-nutrient { background: #fbf8ee; border-left: 5px solid #9a813b; }
+.val-section-salinity { background: #f1f8f8; border-left: 5px solid #4d8588; }
+.val-section-carbon { background: #f3f8f2; border-left: 5px solid #5f835d; }
+
+.validation-class-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+  gap: 10px 12px;
+}
+
+.validation-class-card {
+  background: rgba(255,255,255,0.82);
+  border: 1px solid #dfe4e8;
+  border-radius: 7px;
+  padding: 9px 10px 2px 10px;
+}
+
+.validation-class-label {
+  font-weight: 650;
+  min-height: 38px;
+  margin-bottom: 3px;
+}
+
+.validation-pass {
+  background: #edf7ef;
+  border-left-color: #4c8460;
+}
+
+.legacy-summary {
+  margin: 10px 0 16px 0;
+}
+
+
+/* v1.6 Part 2 threshold audit ----------------------------------------- */
+.threshold-audit-note {
+  background: #f7f8fa;
+  border: 1px solid #dfe3e8;
+  border-left: 5px solid #667788;
+  border-radius: 7px;
+  padding: 14px 18px;
+  margin: 8px 0 16px 0;
+}
+
+.threshold-audit-note strong {
+  font-weight: 700;
+}
+
+
+/* v1.7.3 user-facing navigation cleanup */
+.data-intro {
+  background: #f7fafc;
+  border-left: 5px solid #3f7fa3;
+  padding: 14px 18px;
+  margin-bottom: 16px;
+  border-radius: 8px;
+}
+.result-details {
+  background: #fafafa;
+  border: 1px solid #d9dee5;
+  border-radius: 8px;
+  padding: 12px 16px;
+  margin: 8px 0 18px 0;
+}
+.result-details > summary {
+  cursor: pointer;
+  font-size: 1.05rem;
+}
+
+
+/* v1.7.4: restore persistent left location/data bar */
+.sherpa-sidebar {
+  position: sticky;
+  top: 10px;
+}
+.sherpa-sidebar > .well {
+  margin-top: 10px;
+}
+
+/* v1.8 proxy integration */
+.proxy-status-card,
+.proxy-preview {
+  border: 1px solid #cfd8dc;
+  border-left: 5px solid #3f7fa3;
+  border-radius: 8px;
+  padding: 10px 12px;
+  margin: 10px 0;
+  background: #f7fafc;
+}
+.proxy-status-card p { margin: 4px 0 0 0; }
+
+
+/* v1.8.3 — visual separation of USER/MANUAL and EU PROXY data */
+.source-panel {
+  border: 1px solid #d5dce3;
+  border-radius: 10px;
+  padding: 14px 14px 10px 14px;
+  margin: 0 0 14px 0;
+}
+
+.source-panel-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 8px;
+}
+
+.source-panel-note {
+  margin: 4px 0 12px 0;
+  color: #4f5f6f;
+  line-height: 1.35;
+}
+
+.source-badge {
+  display: inline-block;
+  padding: 3px 8px;
+  border-radius: 999px;
+  font-size: 0.76rem;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  white-space: nowrap;
+}
+
+.user-source-panel {
+  background: #f2f8f3;
+  border-left: 6px solid #4b8b62;
+}
+
+.user-badge {
+  background: #dcefe1;
+  color: #245937;
+}
+
+.proxy-source-panel {
+  background: #f1f7fb;
+  border-left: 6px solid #3f7fa3;
+}
+
+.proxy-badge {
+  background: #dcecf6;
+  color: #235b7a;
+}
+
+.settings-panel {
+  background: #f7f7f7;
+  border-left: 6px solid #8a939d;
+}
+
+.settings-badge {
+  background: #e7eaed;
+  color: #4b535b;
+}
+
+.main-source-panel {
+  margin-top: 12px;
+  margin-bottom: 16px;
+}
+
+.sidebar-actions {
+  padding-top: 2px;
+  margin-bottom: 10px;
+}
+
+.source-context-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 8px;
+}
+
+/* Make proxy availability card visually part of the EU panel. */
+.proxy-source-panel .proxy-status-card {
+  background: #ffffff;
+  border-left-color: #3f7fa3;
+}
+
+/* Keep missing/unresolved state visually distinct from both sources. */
+.warning-card {
+  border-left-color: #c68d1f !important;
+}
+
+/* Compact panels in the narrow sidebar. */
+.sherpa-sidebar .source-panel {
+  padding: 12px 12px 8px 12px;
+}
+.sherpa-sidebar .source-panel-header {
+  display: block;
+}
+.sherpa-sidebar .source-panel-header strong {
+  display: block;
+  margin-top: 6px;
+}
+
+
+/* v1.8.6 Part 2 raster inventory */
+.proxy-source-panel details > summary {
+  cursor: pointer;
+  margin-bottom: 6px;
+}
+.proxy-source-panel table {
+  background: #ffffff;
+}
+
+
+/* SHERPA field assessment — release v1.0 metadata */
+.release-metadata {
+  margin: 8px 0 14px 0;
+  padding: 10px 14px;
+  border-left: 4px solid #4b8b62;
+  background: #f7faf8;
+  border-radius: 6px;
+  color: #4e5d68;
+  font-size: 0.92rem;
+  line-height: 1.42;
+}
+.release-metadata p {
+  margin: 2px 0 6px 0;
+}
+.release-metadata p:last-child {
+  margin-bottom: 0;
+}
